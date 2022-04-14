@@ -1,0 +1,129 @@
+{
+  "uid" : "e3944e1862f6a69f",
+  "name" : "test_cal[params5]",
+  "fullName" : "test_case.test_add.TestAdd#test_cal",
+  "historyId" : "aecddc2a968e7135599433f9eeb9e891",
+  "time" : {
+    "start" : 1649946064567,
+    "stop" : 1649946064567,
+    "duration" : 0
+  },
+  "description" : "\n        测试计算结果\n        :param params: a,b,validate\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    测试计算结果\n    :param params: a,b,validate\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "start_session",
+    "time" : {
+      "start" : 1649946064187,
+      "stop" : 1649946064188,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_case",
+    "time" : {
+      "start" : 1649946064566,
+      "stop" : 1649946064566,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_case::0",
+    "time" : {
+      "start" : 1649946064569,
+      "stop" : 1649946064569,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_session::0",
+    "time" : {
+      "start" : 1649946064977,
+      "stop" : 1649946064977,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "add"
+  }, {
+    "name" : "tag",
+    "value" : "p0"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_add"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAdd"
+  }, {
+    "name" : "host",
+    "value" : "Daisy"
+  }, {
+    "name" : "thread",
+    "value" : "20040-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params",
+    "value" : "{'name': 'b<-99', 'data': {'a': 1, 'b': -99.1}, 'validate': '参数大小超出范围'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "add", "p0" ]
+  },
+  "source" : "e3944e1862f6a69f.json",
+  "parameterValues" : [ "{'name': 'b<-99', 'data': {'a': 1, 'b': -99.1}, 'validate': '参数大小超出范围'}" ]
+}

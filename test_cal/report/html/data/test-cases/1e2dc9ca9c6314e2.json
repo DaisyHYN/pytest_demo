@@ -1,0 +1,129 @@
+{
+  "uid" : "1e2dc9ca9c6314e2",
+  "name" : "test_cal[params1]",
+  "fullName" : "test_case.test_div.TestDiv#test_cal",
+  "historyId" : "d01eaf1bbc85f6f48fe20d8a2fc00a25",
+  "time" : {
+    "start" : 1649946421003,
+    "stop" : 1649946421004,
+    "duration" : 1
+  },
+  "description" : "\n        测试计算结果\n        :param params: a,b,validate\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    测试计算结果\n    :param params: a,b,validate\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "start_session",
+    "time" : {
+      "start" : 1649946420472,
+      "stop" : 1649946420472,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_case",
+    "time" : {
+      "start" : 1649946421002,
+      "stop" : 1649946421002,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_case::0",
+    "time" : {
+      "start" : 1649946421006,
+      "stop" : 1649946421006,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_session::0",
+    "time" : {
+      "start" : 1649946421249,
+      "stop" : 1649946421249,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "p0"
+  }, {
+    "name" : "tag",
+    "value" : "div"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_div"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDiv"
+  }, {
+    "name" : "host",
+    "value" : "Daisy"
+  }, {
+    "name" : "thread",
+    "value" : "15556-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_div"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params",
+    "value" : "{'name': 'a=-99', 'data': {'a': -99, 'b': 1}, 'validate': -99}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "p0", "div" ]
+  },
+  "source" : "1e2dc9ca9c6314e2.json",
+  "parameterValues" : [ "{'name': 'a=-99', 'data': {'a': -99, 'b': 1}, 'validate': -99}" ]
+}

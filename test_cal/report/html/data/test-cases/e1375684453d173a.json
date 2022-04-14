@@ -1,0 +1,129 @@
+{
+  "uid" : "e1375684453d173a",
+  "name" : "test_format[params0]",
+  "fullName" : "test_case.test_div.TestDiv#test_format",
+  "historyId" : "e255b41f50cd1dff00c62109055d3533",
+  "time" : {
+    "start" : 1649945803485,
+    "stop" : 1649945803485,
+    "duration" : 0
+  },
+  "description" : "\n        测试计算结果的精度\n        1）有限小数结果尽量短。最多8位，超过则四舍五入\n        2）无限小数精确到小数点后8位，四舍五入\n        :param params: a,b,validate\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    测试计算结果的精度\n    1）有限小数结果尽量短。最多8位，超过则四舍五入\n    2）无限小数精确到小数点后8位，四舍五入\n    :param params: a,b,validate\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "start_session",
+    "time" : {
+      "start" : 1649945802886,
+      "stop" : 1649945802886,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_case",
+    "time" : {
+      "start" : 1649945803484,
+      "stop" : 1649945803484,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_case::0",
+    "time" : {
+      "start" : 1649945803487,
+      "stop" : 1649945803487,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_session::0",
+    "time" : {
+      "start" : 1649945803635,
+      "stop" : 1649945803635,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "div"
+  }, {
+    "name" : "tag",
+    "value" : "p1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_div"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDiv"
+  }, {
+    "name" : "host",
+    "value" : "Daisy"
+  }, {
+    "name" : "thread",
+    "value" : "7180-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_div"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params",
+    "value" : "{'name': '计算精度-整数除法，有限小数', 'data': {'a': 6, 'b': 3}, 'validate': 2}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "div", "p1" ]
+  },
+  "source" : "e1375684453d173a.json",
+  "parameterValues" : [ "{'name': '计算精度-整数除法，有限小数', 'data': {'a': 6, 'b': 3}, 'validate': 2}" ]
+}

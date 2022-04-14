@@ -1,0 +1,129 @@
+{
+  "uid" : "934786caba1a4309",
+  "name" : "test_length[params3]",
+  "fullName" : "test_case.test_div.TestDiv#test_length",
+  "historyId" : "26a12e54505ef5ca2242c5b89936e81e",
+  "time" : {
+    "start" : 1649946102703,
+    "stop" : 1649946102704,
+    "duration" : 1
+  },
+  "description" : "\n        测试输入参数的长度\n        :param params: a,b,validate\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    测试输入参数的长度\n    :param params: a,b,validate\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "start_session",
+    "time" : {
+      "start" : 1649946102183,
+      "stop" : 1649946102183,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_case",
+    "time" : {
+      "start" : 1649946102702,
+      "stop" : 1649946102702,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_case::0",
+    "time" : {
+      "start" : 1649946102706,
+      "stop" : 1649946102706,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_session::0",
+    "time" : {
+      "start" : 1649946102942,
+      "stop" : 1649946102942,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "p1"
+  }, {
+    "name" : "tag",
+    "value" : "div"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_div"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDiv"
+  }, {
+    "name" : "host",
+    "value" : "Daisy"
+  }, {
+    "name" : "thread",
+    "value" : "3516-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_div"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params",
+    "value" : "{'name': 'b长度过长', 'data': {'a': 1, 'b': 1.0}, 'validate': 1.0}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "div", "p1" ]
+  },
+  "source" : "934786caba1a4309.json",
+  "parameterValues" : [ "{'name': 'b长度过长', 'data': {'a': 1, 'b': 1.0}, 'validate': 1.0}" ]
+}

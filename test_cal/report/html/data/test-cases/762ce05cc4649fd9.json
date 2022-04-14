@@ -1,0 +1,235 @@
+{
+  "uid" : "762ce05cc4649fd9",
+  "name" : "test_format[params0]",
+  "fullName" : "test_case.test_div.TestDiv#test_format",
+  "historyId" : "e255b41f50cd1dff00c62109055d3533",
+  "time" : {
+    "start" : 1649947330980,
+    "stop" : 1649947330980,
+    "duration" : 0
+  },
+  "description" : "\n        测试计算结果的精度\n        1）有限小数结果尽量短。最多8位，超过则四舍五入\n        2）无限小数精确到小数点后8位，四舍五入\n        :param params: a,b,validate\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    测试计算结果的精度\n    1）有限小数结果尽量短。最多8位，超过则四舍五入\n    2）无限小数精确到小数点后8位，四舍五入\n    :param params: a,b,validate\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 13,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "start_session",
+    "time" : {
+      "start" : 1649947330339,
+      "stop" : 1649947330339,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_case",
+    "time" : {
+      "start" : 1649947330978,
+      "stop" : 1649947330979,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_case::0",
+    "time" : {
+      "start" : 1649947330981,
+      "stop" : 1649947330982,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_session::0",
+    "time" : {
+      "start" : 1649947331120,
+      "stop" : 1649947331120,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "div"
+  }, {
+    "name" : "tag",
+    "value" : "p1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_div"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDiv"
+  }, {
+    "name" : "host",
+    "value" : "Daisy"
+  }, {
+    "name" : "thread",
+    "value" : "12724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_div"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params",
+    "value" : "{'name': '计算精度-整数除法，有限小数', 'data': {'a': 6, 'b': 3}, 'validate': 2}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e79a761e3ab2f6e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947314081,
+        "stop" : 1649947314082,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9c5613e078a2b452",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947132725,
+        "stop" : 1649947132725,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3fe5ff8f810187f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947121842,
+        "stop" : 1649947121842,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b78017524eeede43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947064692,
+        "stop" : 1649947064692,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d4686e189b26de1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947060937,
+        "stop" : 1649947060938,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "326b5de01110b479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946421109,
+        "stop" : 1649946421109,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a8886c7dc6d5d21d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946335866,
+        "stop" : 1649946335866,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "106688b0aed59b8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946254679,
+        "stop" : 1649946254679,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1c3d55fbc82ff307",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946102792,
+        "stop" : 1649946102792,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "66e0eee95645314d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946064822,
+        "stop" : 1649946064822,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cbff029dc08e9ee2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946015414,
+        "stop" : 1649946015414,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cbb0f7bab95fd454",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649945901952,
+        "stop" : 1649945901952,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e1375684453d173a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649945803485,
+        "stop" : 1649945803485,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "div", "p1" ]
+  },
+  "source" : "762ce05cc4649fd9.json",
+  "parameterValues" : [ "{'name': '计算精度-整数除法，有限小数', 'data': {'a': 6, 'b': 3}, 'validate': 2}" ]
+}

@@ -1,0 +1,238 @@
+{
+  "uid" : "56c26e77d8bb3ed7",
+  "name" : "test_format[params2]",
+  "fullName" : "test_case.test_add.TestAdd#test_format",
+  "historyId" : "d532d828697e9a21cd7bf934ffa2b9a5",
+  "time" : {
+    "start" : 1649947330751,
+    "stop" : 1649947330751,
+    "duration" : 0
+  },
+  "description" : "\n        测试计算结果的精度 跟随输入数据的精度\n        :param params: a,b,validate\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    测试计算结果的精度 跟随输入数据的精度\n    :param params: a,b,validate\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 13,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "start_session",
+    "time" : {
+      "start" : 1649947330339,
+      "stop" : 1649947330339,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_case",
+    "time" : {
+      "start" : 1649947330750,
+      "stop" : 1649947330750,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_case::0",
+    "time" : {
+      "start" : 1649947330753,
+      "stop" : 1649947330753,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_session::0",
+    "time" : {
+      "start" : 1649947331120,
+      "stop" : 1649947331120,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "add"
+  }, {
+    "name" : "tag",
+    "value" : "p1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_add"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAdd"
+  }, {
+    "name" : "host",
+    "value" : "Daisy"
+  }, {
+    "name" : "thread",
+    "value" : "12724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params",
+    "value" : "{'name': '计算精度-浮点数', 'data': {'a': 1.123456789, 'b': 1}, 'validate': 2.123456789}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "54f26b40a02e30c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947313844,
+        "stop" : 1649947313844,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4e2068658d979275",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947121742,
+        "stop" : 1649947121742,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a9021a2943f44df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947064592,
+        "stop" : 1649947064592,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "71ed1db361e97d52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947060898,
+        "stop" : 1649947060898,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2539cf4cc5899b26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946420921,
+        "stop" : 1649946420921,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b40232016157ccd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946335689,
+        "stop" : 1649946335690,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2f1caefde7b1738b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946254513,
+        "stop" : 1649946254514,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b111b55af061823a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946102600,
+        "stop" : 1649946102600,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "31c45a2dde3b1475",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946064619,
+        "stop" : 1649946064619,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dcd802b9feb54c63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946015224,
+        "stop" : 1649946015224,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4d81521e91b21303",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 方法 add 的 计算精度-浮点数测试成功\nassert 2.121 == 2.1345678\n  +2.121\n  -2.1345678",
+      "time" : {
+        "start" : 1649945901756,
+        "stop" : 1649945901756,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f01b9570f1e9a26a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 方法 add 的 计算精度-浮点数测试成功\nassert 2.121 == 2.1345678\n  +2.121\n  -2.1345678",
+      "time" : {
+        "start" : 1649945803286,
+        "stop" : 1649945803287,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "81896e4a45c01af8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 方法 add 的 计算精度-浮点数测试成功\nassert 2.121 == 2.1345678\n  +2.121\n  -2.1345678",
+      "time" : {
+        "start" : 1649942265875,
+        "stop" : 1649942265876,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "add", "p1" ]
+  },
+  "source" : "56c26e77d8bb3ed7.json",
+  "parameterValues" : [ "{'name': '计算精度-浮点数', 'data': {'a': 1.123456789, 'b': 1}, 'validate': 2.123456789}" ]
+}

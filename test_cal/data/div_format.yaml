@@ -1,0 +1,27 @@
+-
+  name: 正确格式-整数/浮点数
+  data:
+    a: 2
+    b: 1.0
+  validate: 2.0
+
+-
+  name: 错误格式-str(英文、汉字)等
+  data:
+    a: khsdfgj
+    b: 1
+  validate: 报错啦
+
+-
+  name: 错误格式-str(英文、汉字)等
+  data:
+    a: 1
+    b: khsdfgj
+  validate: 报错啦
+
+-
+  name: 错误格式-str(英文、汉字)等
+  data:
+    a: qwe
+    b: khsdfgj
+  validate: 报错啦

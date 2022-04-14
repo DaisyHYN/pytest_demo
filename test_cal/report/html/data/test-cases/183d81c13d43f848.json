@@ -1,0 +1,254 @@
+{
+  "uid" : "183d81c13d43f848",
+  "name" : "test_length[params1]",
+  "fullName" : "test_case.test_div.TestDiv#test_length",
+  "historyId" : "0aa77a9ac3f23a97525a8e282ae5ebe7",
+  "time" : {
+    "start" : 1649947330787,
+    "stop" : 1649947330787,
+    "duration" : 0
+  },
+  "description" : "\n        测试输入参数的长度\n        :param params: a,b,validate\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    测试输入参数的长度\n    :param params: a,b,validate\n    :return:\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: '>' not supported between instances of 'NoneType' and 'int'",
+  "statusTrace" : "self = <test_cal.test_case.test_div.TestDiv object at 0x00000202FD98F550>\nparams = {'data': {'a': 1, 'b': None}, 'name': 'b为空', 'validate': '报错啦'}\n\n    @pytest.mark.div\n    @pytest.mark.p1\n    @pytest.mark.parametrize(\"params\", read_yaml(\"./data/div_length.yaml\"))\n    def test_length(self, params):\n        \"\"\"\n        测试输入参数的长度\n        :param params: a,b,validate\n        :return:\n        \"\"\"\n        cal = Calculator()\n>       result = cal.div(params[\"data\"]['a'], params[\"data\"]['b'])\n\ntest_case\\test_div.py:38: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <calculator.Calculator object at 0x00000202FD96C220>, a = 1, b = None\n\n    def div(self, a, b):\n>       if a > 99 or a < -99 or b > 99 or b < -99:\nE       TypeError: '>' not supported between instances of 'NoneType' and 'int'\n\n..\\calculator.py:14: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 13,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "start_session",
+    "time" : {
+      "start" : 1649947330339,
+      "stop" : 1649947330339,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_case",
+    "time" : {
+      "start" : 1649947330786,
+      "stop" : 1649947330786,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_case::0",
+    "time" : {
+      "start" : 1649947330840,
+      "stop" : 1649947330840,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_session::0",
+    "time" : {
+      "start" : 1649947331120,
+      "stop" : 1649947331120,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "div"
+  }, {
+    "name" : "tag",
+    "value" : "p1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_div"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDiv"
+  }, {
+    "name" : "host",
+    "value" : "Daisy"
+  }, {
+    "name" : "thread",
+    "value" : "12724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_div"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params",
+    "value" : "{'name': 'b为空', 'data': {'a': 1, 'b': None}, 'validate': '报错啦'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "994b5b67a22d4f11",
+      "status" : "broken",
+      "statusDetails" : "TypeError: '>' not supported between instances of 'NoneType' and 'int'",
+      "time" : {
+        "start" : 1649947313882,
+        "stop" : 1649947313883,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a08aa4a6f052377a",
+      "status" : "broken",
+      "statusDetails" : "TypeError: '>' not supported between instances of 'NoneType' and 'int'",
+      "time" : {
+        "start" : 1649947132708,
+        "stop" : 1649947132709,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b6f291a95c7e7784",
+      "status" : "broken",
+      "statusDetails" : "TypeError: '>' not supported between instances of 'NoneType' and 'int'",
+      "time" : {
+        "start" : 1649947121763,
+        "stop" : 1649947121763,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "76976eee7f9a69db",
+      "status" : "broken",
+      "statusDetails" : "TypeError: '>' not supported between instances of 'NoneType' and 'int'",
+      "time" : {
+        "start" : 1649947064611,
+        "stop" : 1649947064611,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ce9a573a96e40e0f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: '>' not supported between instances of 'NoneType' and 'int'",
+      "time" : {
+        "start" : 1649947060919,
+        "stop" : 1649947060919,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8bd34ebec15efd64",
+      "status" : "broken",
+      "statusDetails" : "TypeError: '>' not supported between instances of 'NoneType' and 'int'",
+      "time" : {
+        "start" : 1649946420958,
+        "stop" : 1649946420958,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f9506338e7f2f014",
+      "status" : "broken",
+      "statusDetails" : "TypeError: '>' not supported between instances of 'NoneType' and 'int'",
+      "time" : {
+        "start" : 1649946335729,
+        "stop" : 1649946335729,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "990ef3d684b6635c",
+      "status" : "broken",
+      "statusDetails" : "TypeError: '>' not supported between instances of 'NoneType' and 'int'",
+      "time" : {
+        "start" : 1649946254554,
+        "stop" : 1649946254554,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "99e9d57dc539cf29",
+      "status" : "broken",
+      "statusDetails" : "TypeError: '>' not supported between instances of 'NoneType' and 'int'",
+      "time" : {
+        "start" : 1649946102637,
+        "stop" : 1649946102638,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "440a4c83dbe54083",
+      "status" : "broken",
+      "statusDetails" : "TypeError: '>' not supported between instances of 'NoneType' and 'int'",
+      "time" : {
+        "start" : 1649946064657,
+        "stop" : 1649946064657,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "219a735296a2eec7",
+      "status" : "broken",
+      "statusDetails" : "TypeError: '>' not supported between instances of 'NoneType' and 'int'",
+      "time" : {
+        "start" : 1649946015261,
+        "stop" : 1649946015261,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "111a1e7c132eb918",
+      "status" : "broken",
+      "statusDetails" : "TypeError: '>' not supported between instances of 'NoneType' and 'int'",
+      "time" : {
+        "start" : 1649945901836,
+        "stop" : 1649945901837,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f3943f27cb75f515",
+      "status" : "broken",
+      "statusDetails" : "TypeError: '>' not supported between instances of 'NoneType' and 'int'",
+      "time" : {
+        "start" : 1649945803369,
+        "stop" : 1649945803370,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "div", "p1" ]
+  },
+  "source" : "183d81c13d43f848.json",
+  "parameterValues" : [ "{'name': 'b为空', 'data': {'a': 1, 'b': None}, 'validate': '报错啦'}" ]
+}

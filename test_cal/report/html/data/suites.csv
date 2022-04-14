@@ -1,0 +1,226 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_add","TestAdd","","","test_format[params2]","
+        测试计算结果的精度 跟随输入数据的精度
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:11 CST 2022","Thu Apr 14 22:42:11 CST 2022","0","test_case","test_div","TestDiv","","","test_format[params6]","
+        测试计算结果的精度
+        1）有限小数结果尽量短。最多8位，超过则四舍五入
+        2）无限小数精确到小数点后8位，四舍五入
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_add","TestAdd","","","test_cal[params5]","
+        测试计算结果
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_add","TestAdd","","","test_length[params2]","
+        测试输入参数的长度
+        :param params: a,b,validate
+        :return:
+        "
+"broken","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_add","TestAdd","","","test_length[params0]","
+        测试输入参数的长度
+        :param params: a,b,validate
+        :return:
+        "
+"failed","Thu Apr 14 22:42:11 CST 2022","Thu Apr 14 22:42:11 CST 2022","1","test_case","test_div","TestDiv","","","test_format[params5]","
+        测试计算结果的精度
+        1）有限小数结果尽量短。最多8位，超过则四舍五入
+        2）无限小数精确到小数点后8位，四舍五入
+        :param params: a,b,validate
+        :return:
+        "
+"failed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","1","test_case","test_div","TestDiv","","","test_format[params1]","
+        测试计算结果的精度
+        1）有限小数结果尽量短。最多8位，超过则四舍五入
+        2）无限小数精确到小数点后8位，四舍五入
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","1","test_case","test_div","TestDiv","","","test_cal[params3]","
+        测试计算结果
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","1","test_case","test_div","TestDiv","","","test_length[params3]","
+        测试输入参数的长度
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_add","TestAdd","","","test_cal[params6]","
+        测试计算结果
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_div","TestDiv","","","test_cal[params8]","
+        测试计算结果
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_add","TestAdd","","","test_format[params3]","
+        测试计算结果的精度 跟随输入数据的精度
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_div","TestDiv","","","test_cal[params1]","
+        测试计算结果
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_div","TestDiv","","","test_cal[params4]","
+        测试计算结果
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:11 CST 2022","Thu Apr 14 22:42:11 CST 2022","0","test_case","test_div","TestDiv","","","test_format[params7]","
+        测试计算结果的精度
+        1）有限小数结果尽量短。最多8位，超过则四舍五入
+        2）无限小数精确到小数点后8位，四舍五入
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_add","TestAdd","","","test_format[params1]","
+        测试计算结果的精度 跟随输入数据的精度
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","1","test_case","test_add","TestAdd","","","test_length[params3]","
+        测试输入参数的长度
+        :param params: a,b,validate
+        :return:
+        "
+"failed","Thu Apr 14 22:42:11 CST 2022","Thu Apr 14 22:42:11 CST 2022","1","test_case","test_div","TestDiv","","","test_format[params9]","
+        测试计算结果的精度
+        1）有限小数结果尽量短。最多8位，超过则四舍五入
+        2）无限小数精确到小数点后8位，四舍五入
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_add","TestAdd","","","test_cal[params3]","
+        测试计算结果
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_div","TestDiv","","","test_cal[params5]","
+        测试计算结果
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_add","TestAdd","","","test_cal[params7]","
+        测试计算结果
+        :param params: a,b,validate
+        :return:
+        "
+"broken","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_div","TestDiv","","","test_length[params0]","
+        测试输入参数的长度
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_div","TestDiv","","","test_cal[params9]","
+        测试计算结果
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_add","TestAdd","","","test_format[params0]","
+        测试计算结果的精度 跟随输入数据的精度
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_add","TestAdd","","","test_cal[params4]","
+        测试计算结果
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_add","TestAdd","","","test_cal[params1]","
+        测试计算结果
+        :param params: a,b,validate
+        :return:
+        "
+"failed","Thu Apr 14 22:42:11 CST 2022","Thu Apr 14 22:42:11 CST 2022","0","test_case","test_div","TestDiv","","","test_format[params8]","
+        测试计算结果的精度
+        1）有限小数结果尽量短。最多8位，超过则四舍五入
+        2）无限小数精确到小数点后8位，四舍五入
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_div","TestDiv","","","test_length[params2]","
+        测试输入参数的长度
+        :param params: a,b,validate
+        :return:
+        "
+"broken","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_div","TestDiv","","","test_cal[params7]","
+        测试计算结果
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_div","TestDiv","","","test_format[params0]","
+        测试计算结果的精度
+        1）有限小数结果尽量短。最多8位，超过则四舍五入
+        2）无限小数精确到小数点后8位，四舍五入
+        :param params: a,b,validate
+        :return:
+        "
+"broken","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","1","test_case","test_add","TestAdd","","","test_length[params1]","
+        测试输入参数的长度
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","1","test_case","test_div","TestDiv","","","test_cal[params2]","
+        测试计算结果
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_add","TestAdd","","","test_cal[params8]","
+        测试计算结果
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_add","TestAdd","","","test_cal[params2]","
+        测试计算结果
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:11 CST 2022","Thu Apr 14 22:42:11 CST 2022","0","test_case","test_div","TestDiv","","","test_format[params3]","
+        测试计算结果的精度
+        1）有限小数结果尽量短。最多8位，超过则四舍五入
+        2）无限小数精确到小数点后8位，四舍五入
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_div","TestDiv","","","test_cal[params0]","
+        测试计算结果
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_add","TestAdd","","","test_cal[params0]","
+        测试计算结果
+        :param params: a,b,validate
+        :return:
+        "
+"failed","Thu Apr 14 22:42:11 CST 2022","Thu Apr 14 22:42:11 CST 2022","0","test_case","test_div","TestDiv","","","test_format[params4]","
+        测试计算结果的精度
+        1）有限小数结果尽量短。最多8位，超过则四舍五入
+        2）无限小数精确到小数点后8位，四舍五入
+        :param params: a,b,validate
+        :return:
+        "
+"passed","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","1","test_case","test_div","TestDiv","","","test_cal[params6]","
+        测试计算结果
+        :param params: a,b,validate
+        :return:
+        "
+"broken","Thu Apr 14 22:42:10 CST 2022","Thu Apr 14 22:42:10 CST 2022","0","test_case","test_div","TestDiv","","","test_length[params1]","
+        测试输入参数的长度
+        :param params: a,b,validate
+        :return:
+        "
+"failed","Thu Apr 14 22:42:11 CST 2022","Thu Apr 14 22:42:11 CST 2022","1","test_case","test_div","TestDiv","","","test_format[params2]","
+        测试计算结果的精度
+        1）有限小数结果尽量短。最多8位，超过则四舍五入
+        2）无限小数精确到小数点后8位，四舍五入
+        :param params: a,b,validate
+        :return:
+        "

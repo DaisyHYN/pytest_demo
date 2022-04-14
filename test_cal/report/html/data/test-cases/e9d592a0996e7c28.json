@@ -1,0 +1,240 @@
+{
+  "uid" : "e9d592a0996e7c28",
+  "name" : "test_format[params7]",
+  "fullName" : "test_case.test_div.TestDiv#test_format",
+  "historyId" : "4e136287a31eda23bfb21b4a42f33830",
+  "time" : {
+    "start" : 1649947331079,
+    "stop" : 1649947331079,
+    "duration" : 0
+  },
+  "description" : "\n        测试计算结果的精度\n        1）有限小数结果尽量短。最多8位，超过则四舍五入\n        2）无限小数精确到小数点后8位，四舍五入\n        :param params: a,b,validate\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    测试计算结果的精度\n    1）有限小数结果尽量短。最多8位，超过则四舍五入\n    2）无限小数精确到小数点后8位，四舍五入\n    :param params: a,b,validate\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 13,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "start_session",
+    "time" : {
+      "start" : 1649947330339,
+      "stop" : 1649947330339,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_case",
+    "time" : {
+      "start" : 1649947331078,
+      "stop" : 1649947331078,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_case::0",
+    "time" : {
+      "start" : 1649947331081,
+      "stop" : 1649947331081,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_session::0",
+    "time" : {
+      "start" : 1649947331120,
+      "stop" : 1649947331120,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "div"
+  }, {
+    "name" : "tag",
+    "value" : "p1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_div"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDiv"
+  }, {
+    "name" : "host",
+    "value" : "Daisy"
+  }, {
+    "name" : "thread",
+    "value" : "12724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_div"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params",
+    "value" : "{'name': '计算精度-浮点数与整数混杂除法，有限小数', 'data': {'a': 1.123456789, 'b': 1}, 'validate': 1.123456789}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b410b2fd409c46a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947314185,
+        "stop" : 1649947314185,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4467d6a684b36906",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947132771,
+        "stop" : 1649947132771,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c1fe8b854d9028c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947121894,
+        "stop" : 1649947121894,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dff9bb527c2eacde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947064738,
+        "stop" : 1649947064738,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "37dc80a78e8af5ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947060989,
+        "stop" : 1649947060989,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b4f5a965d644ec40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946421208,
+        "stop" : 1649946421208,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "332a7a9c5938a51b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946335967,
+        "stop" : 1649946335967,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8b66859ded3929e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946254783,
+        "stop" : 1649946254783,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "443472960f2d142e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 方法 div 的 计算精度-浮点数与整数混杂除法，有限小数测试成功\nassert 1.12345679 == 1.123456789\n  +1.12345679\n  -1.123456789",
+      "time" : {
+        "start" : 1649946102891,
+        "stop" : 1649946102892,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e136d1d5acd46750",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 方法 div 的 计算精度-浮点数与整数混杂除法，有限小数测试成功\nassert 1.12345679 == 1.123456789\n  +1.12345679\n  -1.123456789",
+      "time" : {
+        "start" : 1649946064922,
+        "stop" : 1649946064923,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "db2ba9d35da1421d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 方法 div 的 计算精度-浮点数与整数混杂除法，有限小数测试成功\nassert 1.12345679 == 1.123456789\n  +1.12345679\n  -1.123456789",
+      "time" : {
+        "start" : 1649946015513,
+        "stop" : 1649946015513,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "431481dec7396cde",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 方法 div 的 计算精度-浮点数与整数混杂除法，有限小数测试成功\nassert 1.12345679 == 1.123456789\n  +1.12345679\n  -1.123456789",
+      "time" : {
+        "start" : 1649945902049,
+        "stop" : 1649945902050,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2bc2532891595fe1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 方法 div 的 计算精度-浮点数与整数混杂除法，有限小数测试成功\nassert 1.12345679 == 1.123456789\n  +1.12345679\n  -1.123456789",
+      "time" : {
+        "start" : 1649945803583,
+        "stop" : 1649945803584,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "div", "p1" ]
+  },
+  "source" : "e9d592a0996e7c28.json",
+  "parameterValues" : [ "{'name': '计算精度-浮点数与整数混杂除法，有限小数', 'data': {'a': 1.123456789, 'b': 1}, 'validate': 1.123456789}" ]
+}

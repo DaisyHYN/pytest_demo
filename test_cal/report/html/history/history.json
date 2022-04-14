@@ -1,0 +1,792 @@
+{
+  "61129470491c0a089af730fdd8eedf2c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "634f943f7758e519",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330847,
+        "stop" : 1649947330847,
+        "duration" : 0
+      }
+    } ]
+  },
+  "926c39afa55f11696dbb8eee04c2111b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "608f2ab9e5abf166",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330882,
+        "stop" : 1649947330883,
+        "duration" : 1
+      }
+    } ]
+  },
+  "e515541a559af35b3ddc58d04b0f0536" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5935e969f8e89548",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330759,
+        "stop" : 1649947330759,
+        "duration" : 0
+      }
+    } ]
+  },
+  "cef3f580afc5d22c78eb28c320b4b63a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a8f892ec6776b794",
+      "status" : "broken",
+      "statusDetails" : "TypeError: '>' not supported between instances of 'NoneType' and 'int'",
+      "time" : {
+        "start" : 1649947330768,
+        "stop" : 1649947330768,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8bec9f16c335a1d7f1cd94dfc20dc9bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8c28cf69435400b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330734,
+        "stop" : 1649947330734,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8ba6672475b6fda9830b8f5e0466f8c1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3922d709c1448ca7",
+      "status" : "broken",
+      "statusDetails" : "TypeError: '>' not supported between instances of 'NoneType' and 'int'",
+      "time" : {
+        "start" : 1649947330607,
+        "stop" : 1649947330608,
+        "duration" : 1
+      }
+    } ]
+  },
+  "efdcc89218fcab7526a6dcd4820d15aa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e1b1f299f39328fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330708,
+        "stop" : 1649947330708,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a9be84e009bf869971711aed244974ee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fa16d26e0420f2cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330691,
+        "stop" : 1649947330691,
+        "duration" : 0
+      }
+    } ]
+  },
+  "523b7da8f1a51af675f4314514399c31" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a10d264986a8696d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330971,
+        "stop" : 1649947330971,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e255b41f50cd1dff00c62109055d3533" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "762ce05cc4649fd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330980,
+        "stop" : 1649947330980,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e051c7f061fdb40faa4099ed67815de2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e255dd4ab0fc9f86",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 方法 div 的 计算精度-浮点数与整数混杂除法，无限小数四舍五入\nassert 0.3030303 == 0.30303030303030304\n  +0.3030303\n  -0.30303030303030304",
+      "time" : {
+        "start" : 1649947331088,
+        "stop" : 1649947331088,
+        "duration" : 0
+      }
+    } ]
+  },
+  "179313fa234d5311683f26cea121be41" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6b08d7db1da07c88",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 方法 div 的 计算精度-浮点数除法，无限小数四舍五入\nassert 0.33333333 == 0.33333333333333337\n  +0.33333333\n  -0.33333333333333337",
+      "time" : {
+        "start" : 1649947331033,
+        "stop" : 1649947331033,
+        "duration" : 0
+      }
+    } ]
+  },
+  "416645f9273a8f005e30bbdb756d4e1b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aaef4be30d10a289",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 方法 div 的 计算精度-浮点数除法，无限小数四舍五入\nassert 0.60606061 == 0.6060606060606061\n  +0.60606061\n  -0.6060606060606061",
+      "time" : {
+        "start" : 1649947331051,
+        "stop" : 1649947331052,
+        "duration" : 1
+      }
+    } ]
+  },
+  "7b2e0045a3d7e962b9fde916f168a0e6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aaca8c1c542998f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330918,
+        "stop" : 1649947330919,
+        "duration" : 1
+      }
+    } ]
+  },
+  "26a12e54505ef5ca2242c5b89936e81e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71f77fe024f9a893",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330855,
+        "stop" : 1649947330856,
+        "duration" : 1
+      }
+    } ]
+  },
+  "b4fa51ef2be2c5be6b6cf7400adaef46" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ad9c6d6a8951e63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330909,
+        "stop" : 1649947330909,
+        "duration" : 0
+      }
+    } ]
+  },
+  "71fd933eba8e207e69af2aad4456d38d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "65df2949c053ce95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330864,
+        "stop" : 1649947330864,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a7f20571c7480247d64660168062c3ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "896c6195c87e08f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330673,
+        "stop" : 1649947330673,
+        "duration" : 0
+      }
+    } ]
+  },
+  "f2feeee4f0cdb943793d0044974efb35" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "135f9f15c484c894",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330742,
+        "stop" : 1649947330742,
+        "duration" : 0
+      }
+    } ]
+  },
+  "364d810849e77728f8ee8cc21c1d6564" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b3a4be56d0b340b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330900,
+        "stop" : 1649947330900,
+        "duration" : 0
+      }
+    } ]
+  },
+  "2492c67b4ed762560a770567b2205ad3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a0dacb633c3a855d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330665,
+        "stop" : 1649947330665,
+        "duration" : 0
+      }
+    } ]
+  },
+  "fe7634e00d7b05ac6767f7b5961194a8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4894f81b4cd4454e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330639,
+        "stop" : 1649947330639,
+        "duration" : 0
+      }
+    } ]
+  },
+  "2f759b5b19384eacbba47cf02d217b2e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d1eecddb31e28da3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 方法 div 的 计算精度-整数除法，无限小数四舍五入\nassert 0.33333333 == 0.3333333333333333\n  +0.33333333\n  -0.3333333333333333",
+      "time" : {
+        "start" : 1649947330988,
+        "stop" : 1649947330989,
+        "duration" : 1
+      }
+    } ]
+  },
+  "dd94a062c4c7b1718b29f621fb45459d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "91fd53a7efe70ed4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330716,
+        "stop" : 1649947330716,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e5b17ef4c847fda77c58d07c0565f032" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fb89342b82953cd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947331070,
+        "stop" : 1649947331070,
+        "duration" : 0
+      }
+    } ]
+  },
+  "c94c2fe3273000ae3c72522ac068000a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b3bd57019e4d13f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: '>' not supported between instances of 'NoneType' and 'int'",
+      "time" : {
+        "start" : 1649947330342,
+        "stop" : 1649947330342,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8381066b3a5099037e904c3dddcfb12d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a6fd9e68db0e0fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330891,
+        "stop" : 1649947330892,
+        "duration" : 1
+      }
+    } ]
+  },
+  "d01eaf1bbc85f6f48fe20d8a2fc00a25" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8368a5f4a4d19c18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330873,
+        "stop" : 1649947330873,
+        "duration" : 0
+      }
+    } ]
+  },
+  "0abb9140721c07108b13467a81dac619" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5bbc84d5aa5d64bb",
+      "status" : "broken",
+      "statusDetails" : "ZeroDivisionError: division by zero",
+      "time" : {
+        "start" : 1649947330927,
+        "stop" : 1649947330927,
+        "duration" : 0
+      }
+    } ]
+  },
+  "0aa77a9ac3f23a97525a8e282ae5ebe7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "183d81c13d43f848",
+      "status" : "broken",
+      "statusDetails" : "TypeError: '>' not supported between instances of 'NoneType' and 'int'",
+      "time" : {
+        "start" : 1649947330787,
+        "stop" : 1649947330787,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a8241be37562041140a3def41b91b0a3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2cf7676cc6de61ad",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 方法 div 的 计算精度-浮点数与整数混杂除法，无限小数四舍五入\nassert 0.60606061 == 0.6060606060606061\n  +0.60606061\n  -0.6060606060606061",
+      "time" : {
+        "start" : 1649947331107,
+        "stop" : 1649947331108,
+        "duration" : 1
+      }
+    } ]
+  },
+  "6cdb71cfad1f1ed4e759691bcf04de13" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a53c4035b010dc05",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 方法 div 的 计算精度-整数除法，无限小数四舍五入\nassert 0.66666667 == 0.6666666666666666\n  +0.66666667\n  -0.6666666666666666",
+      "time" : {
+        "start" : 1649947331006,
+        "stop" : 1649947331007,
+        "duration" : 1
+      }
+    } ]
+  },
+  "e43c059158ecb4c0ddf580dff2282f0b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "207140ada6d793a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330725,
+        "stop" : 1649947330725,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d532d828697e9a21cd7bf934ffa2b9a5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "56c26e77d8bb3ed7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330751,
+        "stop" : 1649947330751,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8be02a454b55dc4ee5c72ba875a93d0c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "80152bd20cd93a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330682,
+        "stop" : 1649947330682,
+        "duration" : 0
+      }
+    } ]
+  },
+  "ba1430c3da2c4b8fd6b690e4614185aa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "17a85f9fa8a19912",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330656,
+        "stop" : 1649947330656,
+        "duration" : 0
+      }
+    } ]
+  },
+  "aecddc2a968e7135599433f9eeb9e891" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e0af1f68482fc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330699,
+        "stop" : 1649947330699,
+        "duration" : 0
+      }
+    } ]
+  },
+  "41d208b3e9a7508c658b241f80900b61" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7164f20774c48317",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330647,
+        "stop" : 1649947330648,
+        "duration" : 1
+      }
+    } ]
+  },
+  "75dca5496f443ccaf548b7ea587a5cc2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "22b9512b0e9cdeec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947331024,
+        "stop" : 1649947331024,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4e136287a31eda23bfb21b4a42f33830" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e9d592a0996e7c28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947331079,
+        "stop" : 1649947331079,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8566bf9381f0357eaf5ca88e30582eb1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f2374adbb6110bca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947330962,
+        "stop" : 1649947330962,
+        "duration" : 0
+      }
+    } ]
+  }
+}

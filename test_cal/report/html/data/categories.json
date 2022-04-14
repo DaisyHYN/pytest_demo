@@ -1,0 +1,232 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: '>' not supported between instances of 'NoneType' and 'int'",
+      "children" : [ {
+        "name" : "test_length[params0]",
+        "uid" : "9b3bd57019e4d13f",
+        "parentUid" : "5d88a4954fba02de71fd4ba7043e1443",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649947330342,
+          "stop" : 1649947330342,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': 'a为空', 'data': {'a': None, 'b': 1.0}, 'validate': '报错啦'}" ]
+      }, {
+        "name" : "test_length[params1]",
+        "uid" : "3922d709c1448ca7",
+        "parentUid" : "5d88a4954fba02de71fd4ba7043e1443",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649947330607,
+          "stop" : 1649947330608,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': 'b为空', 'data': {'a': 1, 'b': None}, 'validate': '报错啦'}" ]
+      }, {
+        "name" : "test_length[params0]",
+        "uid" : "a8f892ec6776b794",
+        "parentUid" : "5d88a4954fba02de71fd4ba7043e1443",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649947330768,
+          "stop" : 1649947330768,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': 'a为空', 'data': {'a': None, 'b': 1.0}, 'validate': '报错啦'}" ]
+      }, {
+        "name" : "test_length[params1]",
+        "uid" : "183d81c13d43f848",
+        "parentUid" : "5d88a4954fba02de71fd4ba7043e1443",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649947330787,
+          "stop" : 1649947330787,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': 'b为空', 'data': {'a': 1, 'b': None}, 'validate': '报错啦'}" ]
+      } ],
+      "uid" : "5d88a4954fba02de71fd4ba7043e1443"
+    }, {
+      "name" : "ZeroDivisionError: division by zero",
+      "children" : [ {
+        "name" : "test_cal[params7]",
+        "uid" : "5bbc84d5aa5d64bb",
+        "parentUid" : "23d45e2b95d72e21c04056363d6f717f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649947330927,
+          "stop" : 1649947330927,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 17,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': 'b=0，除数不能为0', 'data': {'a': 99, 'b': 0}, 'validate': '报错啦'}" ]
+      } ],
+      "uid" : "23d45e2b95d72e21c04056363d6f717f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 方法 div 的 计算精度-整数除法，无限小数四舍五入\nassert 0.33333333 == 0.3333333333333333\n  +0.33333333\n  -0.3333333333333333",
+      "children" : [ {
+        "name" : "test_format[params1]",
+        "uid" : "d1eecddb31e28da3",
+        "parentUid" : "4ff78682b4e6608bdc73902d81460b47",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649947330988,
+          "stop" : 1649947330989,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '计算精度-整数除法，无限小数四舍五入', 'data': {'a': 1, 'b': 3}, 'validate': 0.33333333}" ]
+      } ],
+      "uid" : "4ff78682b4e6608bdc73902d81460b47"
+    }, {
+      "name" : "AssertionError: 方法 div 的 计算精度-整数除法，无限小数四舍五入\nassert 0.66666667 == 0.6666666666666666\n  +0.66666667\n  -0.6666666666666666",
+      "children" : [ {
+        "name" : "test_format[params2]",
+        "uid" : "a53c4035b010dc05",
+        "parentUid" : "5d1e08cdd2eb45f5b2d39c9d612cd64c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649947331006,
+          "stop" : 1649947331007,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '计算精度-整数除法，无限小数四舍五入', 'data': {'a': 2, 'b': 3}, 'validate': 0.66666667}" ]
+      } ],
+      "uid" : "5d1e08cdd2eb45f5b2d39c9d612cd64c"
+    }, {
+      "name" : "AssertionError: 方法 div 的 计算精度-浮点数除法，无限小数四舍五入\nassert 0.33333333 == 0.33333333333333337\n  +0.33333333\n  -0.33333333333333337",
+      "children" : [ {
+        "name" : "test_format[params4]",
+        "uid" : "6b08d7db1da07c88",
+        "parentUid" : "2f749fe1412ce4277ca2dbd79083d8b7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649947331033,
+          "stop" : 1649947331033,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '计算精度-浮点数除法，无限小数四舍五入', 'data': {'a': 1.1, 'b': 3.3}, 'validate': 0.33333333}" ]
+      } ],
+      "uid" : "2f749fe1412ce4277ca2dbd79083d8b7"
+    }, {
+      "name" : "AssertionError: 方法 div 的 计算精度-浮点数除法，无限小数四舍五入\nassert 0.60606061 == 0.6060606060606061\n  +0.60606061\n  -0.6060606060606061",
+      "children" : [ {
+        "name" : "test_format[params5]",
+        "uid" : "aaef4be30d10a289",
+        "parentUid" : "d6960ce87ec6802f87533d9e423a71b1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649947331051,
+          "stop" : 1649947331052,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '计算精度-浮点数除法，无限小数四舍五入', 'data': {'a': 2.0, 'b': 3.3}, 'validate': 0.60606061}" ]
+      } ],
+      "uid" : "d6960ce87ec6802f87533d9e423a71b1"
+    }, {
+      "name" : "AssertionError: 方法 div 的 计算精度-浮点数与整数混杂除法，无限小数四舍五入\nassert 0.3030303 == 0.30303030303030304\n  +0.3030303\n  -0.30303030303030304",
+      "children" : [ {
+        "name" : "test_format[params8]",
+        "uid" : "e255dd4ab0fc9f86",
+        "parentUid" : "fe357acba6ec9581fcfc8d68a2e7d53a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649947331088,
+          "stop" : 1649947331088,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '计算精度-浮点数与整数混杂除法，无限小数四舍五入', 'data': {'a': 1, 'b': 3.3}, 'validate': 0.3030303}" ]
+      } ],
+      "uid" : "fe357acba6ec9581fcfc8d68a2e7d53a"
+    }, {
+      "name" : "AssertionError: 方法 div 的 计算精度-浮点数与整数混杂除法，无限小数四舍五入\nassert 0.60606061 == 0.6060606060606061\n  +0.60606061\n  -0.6060606060606061",
+      "children" : [ {
+        "name" : "test_format[params9]",
+        "uid" : "2cf7676cc6de61ad",
+        "parentUid" : "585c23443310047dcbda86094c3c6961",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649947331107,
+          "stop" : 1649947331108,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '计算精度-浮点数与整数混杂除法，无限小数四舍五入', 'data': {'a': 2, 'b': 3.3}, 'validate': 0.60606061}" ]
+      } ],
+      "uid" : "585c23443310047dcbda86094c3c6961"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

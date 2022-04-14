@@ -1,0 +1,131 @@
+{
+  "uid" : "46fbe84f644c260f",
+  "name" : "test_cal[params7]",
+  "fullName" : "test_case.test_div.TestDiv#test_cal",
+  "historyId" : "0abb9140721c07108b13467a81dac619",
+  "time" : {
+    "start" : 1649947064668,
+    "stop" : 1649947064668,
+    "duration" : 0
+  },
+  "description" : "\n        测试计算结果\n        :param params: a,b,validate\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    测试计算结果\n    :param params: a,b,validate\n    :return:\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "ZeroDivisionError: division by zero",
+  "statusTrace" : "self = <test_cal.test_case.test_div.TestDiv object at 0x000001BA9EEC52E0>, params = {'data': {'a': 99, 'b': 0}, 'name': 'b=0，除数不能为0', 'validate': '报错啦'}\n\n    @pytest.mark.div\n    @pytest.mark.p0\n    @pytest.mark.parametrize(\"params\", read_yaml(\"./data/div_cal.yaml\"))\n    def test_cal(self, params):\n        \"\"\"\n        测试计算结果\n        :param params: a,b,validate\n        :return:\n        \"\"\"\n        cal = Calculator()\n>       result = cal.div(params[\"data\"]['a'], params[\"data\"]['b'])\n\ntest_case\\test_div.py:52: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <calculator.Calculator object at 0x000001BA9EEB7160>, a = 99, b = 0\n\n    def div(self, a, b):\n        if a > 99 or a < -99 or b > 99 or b < -99:\n            print(\"请输入范围为【-99, 99】的整数或浮点数\")\n            return \"参数大小超出范围\"\n>       return a / b\nE       ZeroDivisionError: division by zero\n\n..\\calculator.py:17: ZeroDivisionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "start_session",
+    "time" : {
+      "start" : 1649947064462,
+      "stop" : 1649947064462,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_case",
+    "time" : {
+      "start" : 1649947064667,
+      "stop" : 1649947064667,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_case::0",
+    "time" : {
+      "start" : 1649947064678,
+      "stop" : 1649947064678,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_session::0",
+    "time" : {
+      "start" : 1649947064758,
+      "stop" : 1649947064758,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "div"
+  }, {
+    "name" : "tag",
+    "value" : "p0"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_div"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDiv"
+  }, {
+    "name" : "host",
+    "value" : "Daisy"
+  }, {
+    "name" : "thread",
+    "value" : "13984-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_div"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params",
+    "value" : "{'name': 'b=0，除数不能为0', 'data': {'a': 99, 'b': 0}, 'validate': '报错啦'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "div", "p0" ]
+  },
+  "source" : "46fbe84f644c260f.json",
+  "parameterValues" : [ "{'name': 'b=0，除数不能为0', 'data': {'a': 99, 'b': 0}, 'validate': '报错啦'}" ]
+}

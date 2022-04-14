@@ -1,0 +1,70 @@
+-
+  name: a<-99
+  data:
+    a: -99.1
+    b: 1
+  validate: 参数大小超出范围
+
+-
+  name: a=-99
+  data:
+    a: -99
+    b: 1
+  validate: -99
+
+-
+  name: -99<a<99
+  data:
+    a: 1
+    b: 4
+  validate:  0.25
+
+-
+  name: a=99
+  data:
+    a: 99
+    b: 3
+  validate:  33
+
+-
+  name: a>99
+  data:
+    a: 99.1
+    b: 1
+  validate: 参数大小超出范围
+
+
+-
+  name: b<-99
+  data:
+    a: 3
+    b: -99.1
+  validate: 参数大小超出范围
+
+-
+  name: b=-99
+  data:
+    a: 99
+    b: -99
+  validate: -1
+
+-
+  name: b=0，除数不能为0
+  data:
+    a: 99
+    b: 0
+  validate: 报错啦
+
+-
+  name: b=99
+  data:
+    a: 99
+    b: 99
+  validate:  1
+
+-
+  name: b>99
+  data:
+    a: 1
+    b: 99.1
+  validate: 参数大小超出范围

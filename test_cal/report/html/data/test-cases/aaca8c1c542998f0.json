@@ -1,0 +1,267 @@
+{
+  "uid" : "aaca8c1c542998f0",
+  "name" : "test_cal[params6]",
+  "fullName" : "test_case.test_div.TestDiv#test_cal",
+  "historyId" : "7b2e0045a3d7e962b9fde916f168a0e6",
+  "time" : {
+    "start" : 1649947330918,
+    "stop" : 1649947330919,
+    "duration" : 1
+  },
+  "description" : "\n        测试计算结果\n        :param params: a,b,validate\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    测试计算结果\n    :param params: a,b,validate\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 17,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "start_session",
+    "time" : {
+      "start" : 1649947330339,
+      "stop" : 1649947330339,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_case",
+    "time" : {
+      "start" : 1649947330917,
+      "stop" : 1649947330917,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_case::0",
+    "time" : {
+      "start" : 1649947330920,
+      "stop" : 1649947330920,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_session::0",
+    "time" : {
+      "start" : 1649947331120,
+      "stop" : 1649947331120,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "div"
+  }, {
+    "name" : "tag",
+    "value" : "p0"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_div"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDiv"
+  }, {
+    "name" : "host",
+    "value" : "Daisy"
+  }, {
+    "name" : "thread",
+    "value" : "12724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_div"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params",
+    "value" : "{'name': 'b=-99', 'data': {'a': 99, 'b': -99}, 'validate': -1}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c45a7f54910904e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947314020,
+        "stop" : 1649947314020,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ec0ec35a708083d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947287556,
+        "stop" : 1649947287556,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "aa500eeaaaeb4f34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947275156,
+        "stop" : 1649947275156,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dd53186ba369bc0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947245071,
+        "stop" : 1649947245071,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "10e7fb5532f48033",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947195641,
+        "stop" : 1649947195641,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "944a9446ea1b206f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947121814,
+        "stop" : 1649947121814,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "65c5b4b370132d54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947064663,
+        "stop" : 1649947064663,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1e73d2804bb9115c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649947043619,
+        "stop" : 1649947043619,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "53f21a756fb2842c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946674135,
+        "stop" : 1649946674135,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7f813d3f9af53d4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946421048,
+        "stop" : 1649946421048,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8029d5a46cf301ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946335835,
+        "stop" : 1649946335836,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "698e6e3e13b5a3b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946254652,
+        "stop" : 1649946254653,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "67e7709ad3d2e79e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946102765,
+        "stop" : 1649946102766,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "fff1fdca8f76b0e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946064795,
+        "stop" : 1649946064795,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3cdd0c2351cf0c40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649946015388,
+        "stop" : 1649946015389,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6b888674cdfeee51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649945901926,
+        "stop" : 1649945901926,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4da72297ada37c3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649945803459,
+        "stop" : 1649945803460,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "div", "p0" ]
+  },
+  "source" : "aaca8c1c542998f0.json",
+  "parameterValues" : [ "{'name': 'b=-99', 'data': {'a': 99, 'b': -99}, 'validate': -1}" ]
+}

@@ -1,0 +1,64 @@
+#参数a
+-
+  name: a<-99
+  data:
+    a: -99.1
+    b: 1
+  validate: 参数大小超出范围
+
+-
+  name: a=-99
+  data:
+    a: -99
+    b: 1
+  validate: -98
+
+-
+  name: -99<a<99
+  data:
+    a: 23
+    b: 1
+  validate:  24
+
+-
+  name: a=99
+  data:
+    a: 99
+    b: 1
+  validate:  100
+
+-
+  name: a>99
+  data:
+    a: 99.1
+    b: 1
+  validate: 参数大小超出范围
+
+#参数b
+-
+  name: b<-99
+  data:
+    a: 1
+    b: -99.1
+  validate: 参数大小超出范围
+
+-
+  name: b=-99
+  data:
+    a: 1
+    b: -99
+  validate: -98
+
+-
+  name: b=99
+  data:
+    a: 1
+    b: 99
+  validate:  100
+
+-
+  name: b>99
+  data:
+    a: 1
+    b: 99.1
+  validate: 参数大小超出范围
