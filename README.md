@@ -1,18 +1,7 @@
-# Test take-home
+# pytest_demo
 
 ## 计算器测试代码
 
-test目录下有一个```calculator.py```的被测文件，希望在```test_cal```文件夹内\
-编写测试代码满足以下条件：
-
-- 使用```pytest```框架
-- 测试整体执行开始/结束阶段，打印：测试开始/结束
-- 每条用例执行开始/结束阶段，打印：计算开始/结束
-- 用```yaml```文件格式管理测试用例，并根据适用函数（add or div）及优先级（P0\P1）分类
-- 能够用```-m```命令行参数运行指定优先级用例
-- 根据你的理解，适当优化测试代码，减少冗余、美化输出
-
-完成后请将你的代码地址告诉我们。
-
-Good luck!
-"# pytest" 
+原代码地址 https://github.com/teletraan/takehome
+测试说明：
+    -运行 main.py 或 进入test_cal路径，命令行运行pytest
